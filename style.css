@@ -1,0 +1,76 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fa;
+    color: #333;
+}
+header {
+    background-color: #1a3c6d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.logo {
+    width: 120px;
+    display: block;
+    margin: 0 auto;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.slogan {
+    font-style: italic;
+    color: #d9e9ff;
+}
+main {
+    padding: 20px;
+    text-align: center;
+}
+footer {
+    background-color: #1a3c6d;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.trust-badge {
+  background-color: #e6f0ff;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-top: 2px solid #1a3c6d;
+  border-bottom: 2px solid #1a3c6d;
+}
+.slider img {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 10px auto;
+}
+.accordion .accordion-btn {
+  width: 100%;
+  text-align: left;
+  background-color: #1a3c6d;
+  color: white;
+  padding: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.accordion .accordion-content {
+  display: none;
+  padding: 10px;
+  background: #f4f7fa;
+  border-bottom: 1px solid #ccc;
+}
